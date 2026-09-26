@@ -6,10 +6,11 @@ CREATE TABLE funcionarios (
     nome VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL UNIQUE
 
-)
+);
 
 CREATE TABLE pedidos (
     id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    funcionario_id INT NOT NULL,
     medicamento VARCHAR(100) NOT NULL,
     quantidade INT NOT NULL,
     categoria VARCHAR(100) NOT NULL,
