@@ -2,7 +2,7 @@ CREATE DATABASE simulado_saep;
 USE simulado_saep;
 
 CREATE TABLE funcionarios (
-    id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL UNIQUE
 
