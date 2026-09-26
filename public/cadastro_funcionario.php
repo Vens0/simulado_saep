@@ -39,5 +39,9 @@ mysqli_query($conn, $sql);
 
 </form>
 
+<br>
+
+<a href="../index.php"> Voltar </a>
+
 </body>
 </html>
